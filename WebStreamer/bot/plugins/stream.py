@@ -73,7 +73,7 @@ async def private_receive_handler(c: Client, m: Message):
         file_name = get_media_file_name(m)
         file_size = humanbytes(get_media_file_size(m))
         stream_link = "https://gdmodplus.in/{}/{}".format(log_msg.message_id, file_name) if Var.ON_HEROKU or Var.NO_PORT else \
-            "http://gdmodplus.in/{}/{}".format(log_msg.message_id,
+            "https://gdmodplus.in/{}/{}".format(log_msg.message_id,
                                     file_name)
 
         msg_text ="""
@@ -105,7 +105,7 @@ async def channel_receive_handler(bot, broadcast):
         return
     try:
         log_msg = await broadcast.forward(chat_id=Var.BIN_CHANNEL)
-        stream_link = "https://{}/{}".format(Var.FQDN, log_msg.message_id) if Var.ON_HEROKU or Var.NO_PORT else \
+        stream_link = "https://gdmodplus.in/{}".format(Var.FQDN, log_msg.message_id) if Var.ON_HEROKU or Var.NO_PORT else \
             "http://gdmodplus.in/{}".format(Var.FQDN,
                                     Var.PORT,
                                     log_msg.message_id)
