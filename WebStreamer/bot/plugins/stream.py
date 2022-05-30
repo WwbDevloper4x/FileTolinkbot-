@@ -106,7 +106,7 @@ async def channel_receive_handler(bot, broadcast):
     try:
         log_msg = await broadcast.forward(chat_id=Var.BIN_CHANNEL)
         stream_link = "https://{}/{}".format(Var.FQDN, log_msg.message_id) if Var.ON_HEROKU or Var.NO_PORT else \
-            "http://{}:{}/{}".format(Var.FQDN,
+            "http://Mylink.ml/{}".format(Var.FQDN,
                                     Var.PORT,
                                     log_msg.message_id)
         await log_msg.reply_text(
