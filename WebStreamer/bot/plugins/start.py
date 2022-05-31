@@ -25,7 +25,7 @@ HELP_TEXT = """
 <i><b>👊Cᴏɴᴛᴀᴄᴛ ʀᴇᴘᴏʀᴛ ʙᴜɢ</i>  :-</b>@Gaurav4x</i>"""
 ABOUT_TEXT = """
 <b>⚜ Mʏ ɴᴀᴍᴇ :- FileToLink 4U</b>\n
-<b>🔸Vᴇʀꜱɪᴏɴ :- <a href='https://telegram.me/TGTech4U'>1.0</a></b>\n
+<b>🔸Vᴇʀꜱɪᴏɴ :- <a href='https://telegram.me/TGTech4U'>2.0</a></b>\n
 <b>🔹Sᴏᴜʀᴄᴇ :- <a href='https://t.me/Developer4x'>Cʟɪᴄᴋ Hᴇʀᴇ</a></b>\n
 <b>🔸GitHub :- <a href='https://t.me/Developer4x'>Fᴏʟʟᴏᴡ</a></b>\n
 <b>🔹Dᴇᴠᴇʟᴏᴘᴇʀ :- <a href='https://t.me/Developer4x'>Developer4x</a></b>\n
