@@ -181,7 +181,7 @@ async def start(b, m):
         file_name = get_media_file_name(get_msg)
         file_size = humanbytes(get_media_file_size(get_msg))
 
-        stream_link = "https://gdmodplus.in/{}/{}".format(get_msg.message_id, file_name) if Var.ON_HEROKU or Var.NO_PORT else \
+        stream_link = "https://filetolink4u.ml/{}/{}".format(get_msg.message_id, file_name) if Var.ON_HEROKU or Var.NO_PORT else \
             "http://{}:{}/{}/{}".format(Var.FQDN,
                                      Var.PORT,
                                      get_msg.message_id,
