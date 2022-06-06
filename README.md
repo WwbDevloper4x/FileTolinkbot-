@@ -14,4 +14,4 @@ broadcast -🧾Broadcast post ~ 👑Owner Only
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/Gavravjaggu/FileToLink4UBot)
 
 <h3>🤔About this repo and bot :-</h3>
-This bot telegram file to download link and Direct Link Generator.
+This bot telegram file, video, image to download link and Direct Link Generator.
